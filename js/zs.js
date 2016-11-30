@@ -34,8 +34,8 @@
 		// total number of items
 		itemsTotal = items.length,
 		// navigation controls/arrows
-		navRightCtrl = sliderEl.querySelector('.button--nav-next'),
-		navLeftCtrl = sliderEl.querySelector('.button--nav-prev'),
+		navRightCtrl = document.querySelectorAll('.button--nav-next'),
+		navLeftCtrl = document.querySelectorAll('.button--nav-prev'),
 		zoomCtrl = sliderEl.querySelector('.button--zoom'),
 		// the main content element
 		contentEl = document.querySelector('.content'),
@@ -80,8 +80,24 @@
 		// closeContentCtrl.addEventListener('click', closeContent);
 
 		// navigation
-		navRightCtrl.addEventListener('click', function() { navigate('right'); });
-		navLeftCtrl.addEventListener('click', function() { navigate('left'); });
+		navRightCtrl.forEach(function(ctrl) {
+			ctrl.addEventListener('click', function() {
+				sliderEl = this.parentElement.parentElement;
+				items = [].slice.call(sliderEl.querySelectorAll('.slide'));
+				// total number of items
+				itemsTotal = items.length;
+				navigate('right'); 
+			});
+		});
+		navLeftCtrl.forEach(function(ctrl) {
+			ctrl.addEventListener('click', function() {
+				sliderEl = this.parentElement.parentElement;
+				items = [].slice.call(sliderEl.querySelectorAll('.slide'));
+				// total number of items
+				itemsTotal = items.length; 
+				navigate('left'); 
+			});
+		});
 
 		// window resize
 		window.addEventListener('resize', throttle(function(ev) {
