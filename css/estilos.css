@@ -50,19 +50,21 @@ nav ul{
   display: none;
 }
 nav ul a {
-  font-family: 'Share Tech Mono', monospace;
   transition-duration:0.5s;
   text-decoration: none;
   color: #f4f5f9;
   font-size: 4vw;
   line-height: 1.5;
   width: 100%;
-  display: block;
 }
 nav ul a:hover{
   background-color: rgba(0,0,0,0.5);
   text-decoration: none;
   color:#EFFFE9;
+}
+/*----*/
+.menu-items li{
+  height: calc(100% / 7);
 }
 /***********************************************************************************/
 .principal{
@@ -226,10 +228,14 @@ nav ul a:hover{
   border:1px solid #bbb;
 }
 /*****************************CONTACTO********************************/
+.contacto{
+  padding: 0;
+}
 .despedida{
-	margin: 2em 0;
-  padding: 0 10%;
 	display: inline-block;
+  width: 40%;
+  color: #B3A394;
+  font-size: 16px;
 }
 .icn-final{
   border-radius: 50%;
@@ -257,25 +263,11 @@ nav ul a:hover{
   color: white;
   font-weight: bold;
 }
-.qr img{
-  width: 100px;
-}
-.frase div{
-  display: inline-block;
-}
 .frase{
-  margin:2em 0;
+  margin-top: 2em;
   color:#E71D36;
   text-align: center;
-}
-.comilla{
-  display: inline-block;
-}
-.izq{
-  float: right;
-}
-.comilla img{
-  width: 20px;
+  background-color: #B3A394;
 }
 /***/
 .pv-70 {
@@ -393,5 +385,13 @@ nav ul a:hover{
   }
   .herramienta .derecha{
     text-align: left;
+  }
+  /*---------------*/
+  .despedida{
+    width: 80%;
+  }
+  /*----------------*/
+  .menu-items a{
+    font-size: 30px;
   }
 }
