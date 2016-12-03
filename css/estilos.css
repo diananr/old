@@ -194,9 +194,11 @@ nav ul a:hover{
   margin-right: 20px;
   margin-bottom: 20px;
 }
-.git img{
-  width: 50px;
+.gif img{
+  max-width: 90%;
+  margin-top: 100px;
 }
+
 /*************************PROYECTOS**************************************/
 .opcion{
 	display: inline-block;
