@@ -60,6 +60,11 @@ var cargaPag = function(){
   $("#todos").click(mostrarTodos);
   $("#landing").click(mostrarLanding);
   $("#mobile").click(mostrarMobile);
+
+  $(".hab").smoove({
+    offset  : '25%',
+    moveY   : '100px',
+  });
 }
 $(document).ready(cargaPag);
 
