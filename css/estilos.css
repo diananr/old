@@ -140,7 +140,7 @@ nav ul a:hover{
 
 }
 .descripcion, .otrosDatos{
-  height: 210px;
+  height: 220px;
 }
 .hobbies, .insignias{
   display: inline-block;
@@ -373,9 +373,6 @@ nav ul a:hover{
   }
   .direccionales{
     margin: 20px 0;
-  }
-  .otrosDatos{
-    height: auto;
   }
   .hobbies, .insignias{
     margin-bottom: 20px;
