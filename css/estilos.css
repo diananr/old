@@ -357,17 +357,15 @@ nav ul a:hover{
   .console-container{
     font-size: 6vw;
   }
-
+  /*------------*/
   .profile img{
     width: 160px;
     height: 160px;
   }
-
   .pv-70 {
     padding-top: 0px;
     padding-bottom: 10px;
   }
-
   .descripcion{
     width: 90%;
   }
@@ -383,5 +381,17 @@ nav ul a:hover{
   }
   .insignias img{
     width: 50px;
+  }
+  /*---------------*/
+  .herramienta{
+    padding: 0 20px;
+  }
+  .derec{
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .herramienta .derecha{
+    text-align: left;
   }
 }
