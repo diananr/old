@@ -168,6 +168,10 @@ nav ul a:hover{
   margin-left: 20px;
   margin-bottom: 20px;
 }
+.herramienta i{
+  font-size: 50px;
+  color: #F87060;
+}
 .herramienta .derecha{
   text-align: right;
 }
@@ -199,12 +203,13 @@ nav ul a:hover{
 	border-radius: 5px;
 	padding: 1%;
 	margin-top: 1em;
-	color: #f87060;
-	border: 1px solid #f87060;
+	background-color: #f87060;
   border-radius: 3px;
+  font-weight: bold;
+  color: white;
 }
 .opcion:hover{
-  background-color:#f87060;
+  background-color:#102542;
   color: white;
   text-decoration: none;
 }
@@ -237,14 +242,18 @@ nav ul a:hover{
 }
 .cv{
 	display: inline-block;
-	border:2px solid #F87060;
+	background-color: #F87060;
 	border-radius: 5px;
 	padding: 1%;
-  color:#E71D36;
   margin: 2em 0;
 }
 .cv:hover{
   background-color: rgba(0,0,0,0.3);
+}
+.cv a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 .qr img{
   width: 100px;
