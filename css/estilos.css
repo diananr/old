@@ -50,9 +50,8 @@ nav ul{
   display: none;
 }
 nav ul a {
-  transition-duration:0.5s;
   text-decoration: none;
-  color: #f4f5f9;
+  color: white;
   font-size: 4vw;
   line-height: 1.5;
   width: 100%;
@@ -60,6 +59,7 @@ nav ul a {
 }
 nav ul a:hover{
   text-decoration: none;
+  color: #CDD7D6;
 }
 nav ul li:hover{
   background-color: rgba(248,80,50,0.5);
@@ -139,7 +139,7 @@ nav ul li:hover{
 .descripcion{
   display: inline-block;
   width: 40%;
-  color: #B3A394;
+  color: #213556;
   font-size: 16px;
 
 }
@@ -191,7 +191,7 @@ nav ul li:hover{
 }
 .texto p{
   margin-bottom: 20px;
-  color: #B3A394;
+  color: #213556;
 }
 /*_+++++_*/
 .izquier{
@@ -236,7 +236,7 @@ nav ul li:hover{
 .despedida{
 	display: inline-block;
   width: 40%;
-  color: #B3A394;
+  color: #213556;
   font-size: 16px;
 }
 .icn-final{
