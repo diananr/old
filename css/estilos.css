@@ -156,6 +156,7 @@ nav ul li:hover{
   border-radius: 3px;
   padding: 10px;
   margin: 5px 0;
+  cursor: pointer;
 }
 .dir:hover{
   background-color:#102542;
@@ -219,15 +220,14 @@ nav ul li:hover{
   color: white;
   text-decoration: none;
 }
-.bots p{
-  font-size: 20px;
-  margin: 1em 0;
-}
 .bots a{
+  background-color: #B3A394;
+  color: white; 
+  cursor: pointer;
   text-decoration: none;
-  padding: 1%;
+  padding: .5%;
+  font-size: 16px;
   border-radius: 3px;
-  border:1px solid #bbb;
 }
 /*****************************CONTACTO********************************/
 .contacto{
