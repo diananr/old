@@ -328,13 +328,25 @@ nav ul a:hover{
     font-size: 18px;
   }
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
   .nombre h1{
     font-size: 10vw;
   }
   .parrafo{
     text-align: center;
     padding: 0 2em;
+  }
+  /*---------------*/
+  .herramienta{
+    padding: 0 20px;
+  }
+  .derec{
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .herramienta .derecha{
+    text-align: left;
   }
 }
 @media(max-width: 479px){
@@ -373,18 +385,6 @@ nav ul a:hover{
   }
   .insignias img{
     width: 50px;
-  }
-  /*---------------*/
-  .herramienta{
-    padding: 0 20px;
-  }
-  .derec{
-    float: left;
-    margin-right: 20px;
-    margin-left: 0;
-  }
-  .herramienta .derecha{
-    text-align: left;
   }
   /*---------------*/
   .despedida{
