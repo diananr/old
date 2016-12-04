@@ -56,7 +56,7 @@ function consoleText(words, id, colors) {
 }
 
 var cargaPag = function(){
-  $(".dir").click(ocultarSec);
+  $(".dir").click(ocultarDescrip);
   $("#todos").click(mostrarTodos);
   $("#landing").click(mostrarLanding);
   $("#mobile").click(mostrarMobile);
@@ -65,10 +65,11 @@ var cargaPag = function(){
     offset  : '25%',
     moveY   : '100px',
   });
+
 }
 $(document).ready(cargaPag);
 
-var ocultarSec = function(){
+var ocultarDescrip = function(){
   $("#otrosDatos").toggleClass("ocultar");
   $(".descripcion").toggleClass("ocultar");
 }

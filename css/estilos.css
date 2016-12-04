@@ -56,11 +56,13 @@ nav ul a {
   font-size: 4vw;
   line-height: 1.5;
   width: 100%;
+  font-family: 'Righteous', cursive;
 }
 nav ul a:hover{
-  background-color: rgba(0,0,0,0.5);
   text-decoration: none;
-  color:#EFFFE9;
+}
+nav ul li:hover{
+  background-color: rgba(248,80,50,0.5);
 }
 /*----*/
 .menu-items li{
@@ -123,16 +125,16 @@ nav ul a:hover{
   margin: 20px 0;
 }
 /*---*/
+.subtitulo{
+  font-family: 'Righteous', cursive;
+  color: #F87060;
+}
 /********************************SOBREMI******************************/
 .profile img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-top: 2em;
-}
-.sobremi .subtitulo{
-  font-size: 5vw;
-  color: #F87060;
 }
 .descripcion{
   display: inline-block;
