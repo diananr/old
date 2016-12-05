@@ -68,7 +68,7 @@ nav ul li:hover{
 .menu-items li{
   height: calc(100% / 7);
 }
-/***********************************************************************************/
+/*************************HOME****************************/
 .principal{
   height: 100vh;
   position: relative;
@@ -130,7 +130,7 @@ nav ul li:hover{
   font-family: 'Righteous', cursive;
   color: #F87060;
 }
-/********************************SOBREMI******************************/
+/********************************ABOUT-ME****************************/
 .profile img{
   width: 200px;
   height: 200px;
@@ -165,7 +165,7 @@ nav ul li:hover{
 .ocultar{
   display: none;
 }
-/*****************************HABILIDADES*****************************/
+/************************SKILLS************************/
 .herramienta{
   padding-bottom: 20px;
 }
@@ -205,7 +205,7 @@ nav ul li:hover{
   margin-top: 100px;
 }
 
-/*************************PROYECTOS**************************************/
+/************************PROJECTS********************************/
 .opcion{
 	display: inline-block;
 	border-radius: 5px;
@@ -230,7 +230,7 @@ nav ul li:hover{
   font-size: 16px;
   border-radius: 3px;
 }
-/*****************************CONTACTO********************************/
+/***********************CONTACT*********************/
 .contacto{
   padding: 0;
 }
@@ -278,7 +278,7 @@ nav ul li:hover{
 .inline-block {
   display: inline-block;
 }
-/*VIDEO*/
+/*-----------------VIDEO-------------------------*/
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -320,7 +320,7 @@ nav ul li:hover{
 .video-container video.fillWidth {
     width: 100%;
 }
-/******************************MEDIAS***********************************/
+/*****************MEDIAS*********************/
 @media (max-width: 991px){
   .idioma{
     margin: 10px 50px 0 0;
