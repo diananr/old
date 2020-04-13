@@ -1,0 +1,178 @@
+:root {
+    --main-color: #195880;
+    --second-color: #EE6C4D;
+    --gray-color: #F2F2F2;
+    --white-color: #FFF;
+}
+
+body {
+    font-family: 'Baloo 2';
+    margin: 0;
+}
+
+body a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body p, h1, h2 {
+    margin: 0;
+}
+
+.wrapper{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.subtitle{
+    display: inline-block;
+    text-align: center;
+}
+
+.subtitle > h2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.subtitle > .underline{
+    background-color: var(--second-color);
+    height: 5px;
+    margin: auto;
+    width: 90%;
+}
+
+.hero{
+    align-items: center;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+
+.top-bar{
+    background-image: url('../img/code.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.top-bar-overlay{
+    background-color: #195880a6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.top-bar-shape{
+    width: 100%;
+    height: 25%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 45%, 100% 45%, 24% 98%, 20% 100%, 18% 98%, 0% 75%, 0% 75%);
+}
+
+.hero_content > p{
+    color: var(--gray-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hero_content > h1{
+    color: var(--white-color);
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.hero_content > .console_container {
+    color: var(--second-color);
+    font-size: 4vw;
+}
+
+.hero_content > .icons{
+    color: var(--white-color);
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.hero_content > .icons a{
+    margin: 10px;
+}
+
+.about-me > .about-me_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.about-me_content .photo img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.about-me_content > .description {
+    text-align: left;
+}
+
+.description > p {
+    margin-bottom: 8px;
+}
+
+.about-me_content > .photo, .description {
+    margin-top: 50px;
+    width: 40%;
+}
+
+.contact_content{
+    margin: auto;
+    width: 90%;
+}
+
+.contact_content .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.contact_content .icons div{
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    height: 60px;
+    justify-content: center;
+    margin: 10px;
+    width: 60px;
+}
+
+.phrase{
+    background-color: #EEFCD3;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.phrase .phrase-content{
+    color: var(--main-color);
+    margin: auto;
+    width: 90%;
+}
+
+@media (max-width: 600px) {
+    .hero_content > h1{
+        font-size: 40px;
+    }
+
+    .hero_content > .console_container {
+        font-size: 30px;
+    }
+
+    .about-me_content > .photo, .description {
+        width: 80%;
+    }
+}

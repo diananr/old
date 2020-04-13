@@ -1,525 +1,72 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="description" content="Software Developer">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/animate.css">
-		<link rel="stylesheet" type="text/css" href="css/componentzs.css">
-		<link rel="stylesheet" type="text/css" href="css/magic.min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<title>Diana Navarro Ruiz</title>
+		<link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<title>Diana Navarro</title>
 	</head>
 	<body>
-		<header>
-			<div class="menu-section">
-				<div class="menu-toggle">
-					<div class="one"></div>
-			    	<div class="two"></div>
-			    	<div class="three"></div>
-			  	</div>
-			  	<nav>
-					<ul role="navigation" class="hidden menu-items">
-						<li><a href="#home">Inicio</a></li>
-						<li><a href="#aboutme">Sobre mí</a></li>
-						<li><a href="#skills">Habilidades</a></li>
-						<li><a href="#projects">Proyectos</a></li>
-						<li><a href="#contact">Contacto</a></li>
-						<li>
-							<a href="https://github.com/diananr" target="_blank">
-								<img src="img/github-cont.png" class="animated infinite pulse">
-							</a>
-							<a href="https://pe.linkedin.com/in/diana-navarro-ruiz" target="_blank">
-								<img src="img/linkedin-cont.png" class="animated infinite pulse">
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<div class="homepage-hero-module">
-		    <div class="video-container">
-		        <div class="filter"></div>
-		        <video autoplay loop class="fillWidth">
-		            <source src="videos/love-coding.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-		            <source src="videos/love-coding.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-								<source src="videos/love-coding.ogv" type="video/ogv" />Your browser does not support the video tag. I suggest you upgrade your browser.
-						</video>
-						<div class="container-fluid principal" id="home">
-							<div class="row">
-								<div class="idioma">
-									<a href="english.html">ENG</a>
-								</div>
-							</div>
-							<div class="row text-center datos">
-								<div id="nombre" class="nombre" >
-									<h1>Diana Navarro</h1>
-								</div>
-								<div class="titulo">
-									<div class='console-container'>
-										<span id='text'></span>
-										<div class='console-underscore' id='console'>_</div>
-									</div>
-								</div>
-								<div class="iconos">
-									<a href="https://github.com/diananr" target="_blank" class="inline-block">
-										<img src="img/github.png">
-									</a>
-									<a href="mailto:navarroruiz.diana@gmail.com" class="inline-block">
-										<img src="img/gmail.png">
-									</a>
-									<a href="https://pe.linkedin.com/in/diana-navarro-ruiz" target="_blank" class="inline-block">
-										<img src="img/linkedin.png">
-									</a>
-								</div>
-							</div>
-							<div class="row abajo">
-								<div class="animated infinite bounce">
-									<a href="#aboutme"><img src="img/down.png"></a>
-								</div>
-							</div>
-						</div>
-		        <div class="poster hidden">
-		            <img src="img/love-coding.jpg" alt="">
-		        </div>
-		    </div>
-		</div>
-		<section id="aboutme">
-			<div class="container-fluid sobremi pv-70 text-center">
-				<div class="profile">
-					<img src="img/foto-perfil.jpg" alt="Diana">
+		<section class="hero">
+			<div class="top-bar top-bar-shape"></div>
+			<div class="top-bar-overlay top-bar-shape"></div>
+			<div class="hero_content">
+				<p>Hola, mi nombre es</p>
+				<h1>Diana Navarro</h1>
+				<div class="console_container">
+					<span id="roleText"></span>
+					<span>_</span>
 				</div>
-				<div class="subtitulo">
-					<h2>Sobre mí</h2>
-				</div>
-				<div class="descripcion">
-					<p>Soy desarrolladora front-end junior de Laboratoria. Opté por este camino en busca de estudiar algo diferente y romper estereotipos. Me encanta lo que hago por la capacidad que nos brinda el código de transformar una idea en realidad y que esta beneficie a muchas personas.</p>
-				</div>
-				<div id="otrosDatos" class="otrosDatos ocultar">
-					<div class="hobbies">
-						<h5>HOBBIES</h5>
-						<div>
-							<img src="img/voley.png">
-							<img src="img/movies.png">
-							<img src="img/music.png">
-							<img src="img/code.png">
-							<img src="img/shoes.png">
-						</div>
-					</div>
-					<div class="insignias">
-						<h5>INSIGNIAS LABORATORIA</h5>
-						<div>
-							<img src="img/5-mejores.png">
-							<img src="img/mejor-squad.png">
-							<img src="img/team-player.png">
-						</div>
-					</div>
-				</div>
-				<div class="direccionales">
-					<span><i class="glyphicon glyphicon-chevron-left dir"></i></span>
-					<span><i class="glyphicon glyphicon-chevron-right dir"></i></span>
+				<div class="icons">
+					<a href="https://github.com/diananr" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://medium.com/@diananr" target="_blank"><i class="fab fa-medium-m"></i></a>
+					<a href="https://twitter.com/diananr25" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://pe.linkedin.com/in/diana-navarro-ruiz" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a href="mailto:navarroruiz.diana@gmail.com" target="_blank"><i class="far fa-envelope"></i>					</a>
 				</div>
 			</div>
 		</section>
-		<section id="skills">
-			<div class="container pv-70 habilidades">
-				<div class="row text-center">
-					<div class="subtitulo">
-						<h2>Habilidades</h2>
-					</div>
+		<section class="about-me wrapper">
+			<div class="subtitle">
+				<h2>Sobre mí</h2>
+				<div class="underline"></div>
+			</div>
+			<div class="about-me_content">
+				<div class="photo">
+					<img src="img/profile-photo.jpg" alt="Diana Navarro">
 				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 hab">
-						<div class="row">
-							<div class="herramienta">
-								<div class="derec animated infinite pulse">
-									<i class="devicon-html5-plain"></i>
-								</div>
-								<div class="texto derecha">
-									<h3>HTML5</h3>
-									<p>Lenguaje de marcado que permite dar estructura a la página web.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="herramienta">
-								<div class="derec animated infinite pulse">
-									<i class="devicon-css3-plain"></i>
-								</div>
-								<div class="texto derecha">
-									<h3>CSS3</h3>
-									<p>Hojas de estilo que permiten darle color a una página.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="herramienta">
-								<div class="derec animated infinite pulse">
-									<i class="devicon-javascript-plain"></i>
-								</div>
-								<div class="texto derecha">
-									<h3>JavaScript</h3>
-									<p>Lenguaje de programación que permite darle funcionalidad a las páginas.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="herramienta">
-								<div class="derec animated infinite pulse">
-									<i class="devicon-jquery-plain-wordmark"></i>
-								</div>
-								<div class="texto derecha">
-									<h3>Jquery</h3>
-									<p>Libreria de Javasript que permite simplificar código.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 text-center">
-						<div class="gif">
-							<img src="img/phone.gif">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 hab">
-						<div class="row">
-							<div class="herramienta">
-								<div class="izquier animated infinite pulse">
-									<i class="devicon-bootstrap-plain"></i>
-								</div>
-								<div class="texto">
-									<h3>Bootstrap</h3>
-									<p>Framework de css para maquetar una página web.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="herramienta">
-								<div class="izquier animated infinite pulse">
-									<i class="devicon-sass-original"></i>
-								</div>
-								<div class="texto">
-									<h3>Sass</h3>
-									<p>Pre procesador de css que nos permite tener un código más ordenado y sencillo de editar.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="herramienta">
-								<div class="izquier animated infinite pulse">
-									<i class="devicon-cplusplus-line"></i>
-								</div>
-								<div class="texto">
-									<h3>C++</h3>
-									<p>Lenguaje híbrido de programación orientado a objetos.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="herramienta">
-								<div class="izquier animated infinite pulse">
-									<i class="devicon-git-plain"></i>
-								</div>
-								<div class="texto">
-									<h3>Git</h3>
-									<p>Software de control de versiones.</p>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="description">
+					<p>Hola!</p>
+					<p>Soy Diana, desarrolladora de software y co-organizadora de la comunidad LimaJS. Inicie en este mundo porque me encanta la capacidad de crear soluciones que beneficien a muchas personas.</p>
+					<p>Me considero una mujer responsable, comprometida y que le gustan los retos. Me gusta escuchar música mientras programo (en especial latin y reggaeton), mi plato favorito es el ají de gallina y ahora estoy haciendo yoga :)</p>
 				</div>
 			</div>
 		</section>
-		<section id="projects">
-			<div class="container-fluid proyectos">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="subtitulo">
-							<h2>Proyectos</h2>
-							<div class="foco"></div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="botones">
-							<div class="opcion" id="todos">TODOS</div>
-							<div class="opcion" id="landing">LANDING PAGES</div>
-							<div class="opcion" id="mobile">MOBILE</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="contenproyectos">
-						<div class="slider" id="mostrarTodos">
-							<div class="slide slide--current" data-content="content-1">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/iphone.png" alt="iPhone" />
-										<div class="preview">
-											<img src="img/lyft.png" alt="iPhone app preview" />
-											<div class="zoomer__area zoomer__area--size-2"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Lyft
-									<div class="bots">
-										<a href="https://github.com/diananr/lyft-js" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/lyft-js/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<div class="slide" data-content="content-2">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/macbook.png" alt="MacBook" />
-										<div class="preview">
-											<img src="img/trello.png" alt="Replica Trello"/>
-											<div class="zoomer__area zoomer__area--size-3"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Trello
-									<div class="bots">
-										<a href="https://github.com/diananr/trello-js" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/trello-js/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<div class="slide" data-content="content-3">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/imac.png" alt="iPad Mini" />
-										<div class="preview">
-											<img src="img/todoapp.png" alt="iPad Mini app preview" />
-											<div class="zoomer__area zoomer__area--size-4"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">To Do App
-									<div class="bots">
-										<a href="https://github.com/diananr/toDoApp" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/toDoApp/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<!-- <div class="slide" data-content="content-4">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/imac.png" alt="iMac" />
-										<div class="preview">
-											<img src="img/withinreach.png" alt="iMac app preview" />
-											<div class="zoomer__area zoomer__area--size-5"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Within Reach
-									<div class="bots">
-										<a href="https://github.com/diananr/within-reach" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/within-reach/public/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div> -->
-							<div class="slide" data-content="content-5">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/imac.png" alt="iMac" />
-										<div class="preview">
-											<img src="img/tictactoe.png" alt="iMac app preview" />
-											<div class="zoomer__area zoomer__area--size-5"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Tic-Tac-Toe
-									<div class="bots">
-										<a href="https://github.com/diananr/michicoders" target="_blank">Ver Github</a>
-										<a href="https://tictactoe-coders.herokuapp.com/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<div class="slide" data-content="content-6">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/macbook.png" alt="MacBook" />
-										<div class="preview">
-											<img src="img/petermusic.png" alt="Replica Trello"/>
-											<div class="zoomer__area zoomer__area--size-3"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Peter Pan Music
-									<div class="bots">
-										<a href="https://github.com/diananr/proyectoPM" target="_blank">Ver Github</a>
-										<a href="http://project-pm.herokuapp.com/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<nav class="slider__nav">
-								<button class="button button--nav-prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="text-hidden">Previous product</span></button>
-								<button class="button button--nav-next"><i class="glyphicon glyphicon-chevron-right"></i><span class="text-hidden">Next product</span></button>
-							</nav>
-						</div>
-						<div class="slider ocultar" id="mostrarLanding">
-							<div class="slide slide--current" data-content="content-2">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/imac.png" alt="iPad Mini" />
-										<div class="preview">
-											<img src="img/todoapp.png" alt="iPad Mini app preview" />
-											<div class="zoomer__area zoomer__area--size-4"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">To Do App
-									<div class="bots">
-										<a href="https://github.com/diananr/toDoApp" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/toDoApp/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<div class="slide" data-content="content-3">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/macbook.png" alt="MacBook" />
-										<div class="preview">
-											<img src="img/trello.png" alt="Replica Trello"/>
-											<div class="zoomer__area zoomer__area--size-3"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Trello
-									<div class="bots">
-										<a href="https://github.com/diananr/trello-js" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/trello-js/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<!-- <div class="slide" data-content="content-4">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/imac.png" alt="iMac" />
-										<div class="preview">
-											<img src="img/withinreach.png" alt="iMac app preview" />
-											<div class="zoomer__area zoomer__area--size-5"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Within Reach
-									<div class="bots">
-										<a href="https://github.com/diananr/within-reach" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/within-reach/public/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div> -->
-							<div class="slide" data-content="content-5">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/imac.png" alt="iMac" />
-										<div class="preview">
-											<img src="img/tictactoe.png" alt="iMac app preview" />
-											<div class="zoomer__area zoomer__area--size-5"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Tic-Tac-Toe
-									<div class="bots">
-										<a href="https://github.com/diananr/michicoders" target="_blank">Ver Github</a>
-										<a href="https://tictactoe-coders.herokuapp.com/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<div class="slide" data-content="content-6">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/macbook.png" alt="MacBook" />
-										<div class="preview">
-											<img src="img/petermusic.png" alt="Replica Trello"/>
-											<div class="zoomer__area zoomer__area--size-3"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Peter Pan Music
-									<div class="bots">
-										<a href="https://github.com/diananr/proyectoPM" target="_blank">Ver Github</a>
-										<a href="http://project-pm.herokuapp.com/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<nav class="slider__nav">
-								<button class="button button--nav-prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="text-hidden">Previous product</span></button>
-								<button class="button button--nav-next"><i class="glyphicon glyphicon-chevron-right"></i><span class="text-hidden">Next product</span></button>
-							</nav>
-						</div>
-						<div class="slider ocultar" id="mostrarMobile">
-							<div class="slide slide--current" data-content="content-1">
-								<div class="slide__mover">
-									<div class="zoomer flex-center">
-										<img class="zoomer__image" src="img/iphone.png" alt="iPhone" />
-										<div class="preview">
-											<img src="img/lyft.png" alt="iPhone app preview" />
-											<div class="zoomer__area zoomer__area--size-2"></div>
-										</div>
-									</div>
-								</div>
-								<h2 class="slide__title">Lyft
-									<div class="bots">
-										<a href="https://github.com/diananr/lyft-js" target="_blank">Ver Github</a>
-										<a href="https://diananr.github.io/lyft-js/" target="_blank">Ver Demo</a>
-									</div>
-								</h2>
-							</div>
-							<nav class="slider__nav">
-								<button class="button button--nav-prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="text-hidden">Previous product</span></button>
-								<button class="button button--nav-next"><i class="glyphicon glyphicon-chevron-right"></i><span class="text-hidden">Next product</span></button>
-							</nav>
-						</div>
-					</div>
+		<section class="contact wrapper">
+			<div class="subtitle">
+				<h2>Contacto</h2>
+				<div class="underline"></div>
+			</div>
+			<div class="contact_content">
+				<div class="icons">
+					<div><a href="https://github.com/diananr" target="_blank"><i class="fab fa-github"></i></a></div>
+					<div><a href="https://medium.com/@diananr" target="_blank"><i class="fab fa-medium-m"></i></a></div>
+					<div><a href="https://twitter.com/diananr25" target="_blank"><i class="fab fa-twitter"></i></a></div>
+					<div><a href="https://pe.linkedin.com/in/diana-navarro-ruiz" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+					<div><a href="mailto:navarroruiz.diana@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></div>
+					<div><a href="img/diananr.pdf" target="_blank"><span>CV</span></a></div>
 				</div>
 			</div>
 		</section>
-		<section id="contact">
-			<div class="container-fluid contacto text-center">
-				<div class="subtitulo">
-					<h2>Contacto</h2>
-				</div>
-				<div class="despedida">
-					<p>Gracias por llegar hasta aqui! Si tienes interés en trabajar conmigo, te dejo los datos para contactarnos. Hasta pronto! :)</p>
-				</div>
-				<div>
-					<div class="icn-final">
-						<a href="https://github.com/diananr" target="_blank">
-							<img src="img/github-cont.png" class="animated infinite pulse">
-						</a>
-					</div>
-					<div class="icn-final">
-						<a href="mailto:navarroruiz.diana@gmail.com">
-							<img src="img/gmail-cont.png" class="animated infinite pulse">
-						</a>
-					</div>
-					<div class="icn-final">
-						<a href="https://pe.linkedin.com/in/diana-navarro-ruiz" target="_blank">
-							<img src="img/linkedin-cont.png" class="animated infinite pulse">
-						</a>
-					</div>
-				</div>
-				<div class="cv">
-					<a href="img/diananr.pdf" target="_blank">MIRA MI CV</a>
-				</div>
-				<div class="frase">
-					<p>Everybody in this country should learn how to program a computer, because it teaches you how to think.</p>
-					<span>-Steve Jobs-</span>
-				</div>
+		<section class="phrase wrapper">
+			<div class="phrase-content">
+				<p>“Everybody in this country should learn how to program a computer, because it teaches you how to think.” - Steve Jobs -</p>
 			</div>
 		</section>
+		<script src="https://kit.fontawesome.com/4ed9eeec10.js" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/modernizr.custom.js"></script>
-		<script type="text/javascript" src="js/classie.js"></script>
-		<script type="text/javascript" src="js/dynamics.min.js"></script>
-		<script type="text/javascript" src="js/zs.js"></script>
-		<script type="text/javascript" src="js/video.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.9/jquery.smoove.min.js"></script>
 	</body>
 </html>
